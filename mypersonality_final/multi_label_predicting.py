@@ -4,12 +4,11 @@ import pandas as pd
 
 import os
 
-#TRAIN_DATA_URL = "https://drive.google.com/uc?export=view&id=1QMikptOsJE0IWYIsTgyCfQS9z7hwgle5"
-#TRAIN_DATA = tf.keras.utils.get_file("myPersonality_Training.csv", TRAIN_DATA_URL)
+
+
+
 TRAIN_DATA = "mypersonality_binary.csv"
 TEST_DATA =  "mypersonality_test.csv"
-#using a google drive link here
-#GLOVE_EMBEDDING_URL = "https://drive.google.com/uc?export=download&confirm=d15I&id=1ipP0FHT6AFWEP_FRMxSAOXj-OQr_dhAz"
 GLOVE_EMBEDDING = "glove.6B.100d.txt"
 
 #Prepare the dataset
